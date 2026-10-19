@@ -29,7 +29,7 @@ export default function App() {
     <Nebula />
     <section className="hero" id="top">
       <FadeIn className="nav" delay={0}><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></FadeIn>
-      <FadeIn className="hero-title-wrap" delay={0.15} y={40}><h1 className="hero-heading">英雄之家</h1></FadeIn>
+      <FadeIn className="hero-title-wrap" delay={0.15} y={40}><h1 className="hero-heading">个人网站</h1></FadeIn>
       <div className="hero-footer"><FadeIn delay={0.35} y={20}><p>Creative developer<br />& visual storyteller</p></FadeIn><FadeIn delay={0.5} y={20}><ContactButton onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })} /></FadeIn></div>
       <FadeIn className="portrait" delay={0.6} y={30}><div className="portrait-ring">EP</div></FadeIn>
     </section>
